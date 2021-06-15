@@ -1,6 +1,5 @@
-.work{
+.news{
     text-align: center;
-    padding-bottom: 6rem;
     .container{
         display: flex;
         flex-direction: column;
@@ -12,6 +11,12 @@
                 margin-top: 2rem;
                 line-height: 2rem;
                 color: $grey_txt;
+            }
+        }
+        .news_cards{
+            width: 100%;
+            .news_card{
+                width: calc(100% / 3);
             }
         }
     }

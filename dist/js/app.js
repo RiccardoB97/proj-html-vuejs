@@ -78,6 +78,47 @@ var app = new Vue({
       image_id: '5-1.jpg'
     }, {
       image_id: '6-1.jpg'
+    }],
+    plan_cards: [{
+      name: 'Standard',
+      price: '19',
+      projects: '5',
+      storage: '5 GB',
+      users: 'Unlimited'
+    }, {
+      name: 'Premium',
+      price: '29',
+      projects: '10',
+      storage: '15 GB',
+      users: 'Unlimited'
+    }, {
+      name: 'Professional',
+      price: '39',
+      projects: '15',
+      storage: '30 GB',
+      users: 'Unlimited'
+    }, {
+      name: 'Extreme',
+      price: '59',
+      projects: 'Unlimited',
+      storage: 'Unlimited',
+      users: 'Unlimited'
+    }],
+    news_card: [{
+      image: '',
+      title: '',
+      date: 'November 1st, 2017',
+      paragraph: ''
+    }, {
+      image: '',
+      title: '',
+      date: 'November 1st, 2017',
+      paragraph: ''
+    }, {
+      image: '',
+      title: '',
+      date: 'November 1st, 2017',
+      paragraph: ''
     }]
   },
   methods: {}

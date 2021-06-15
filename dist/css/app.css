@@ -31,7 +31,7 @@ a {
   background-image: url(/dist/img/1-hero-image.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  min-height: 100vh;
   background-position: 60% 90%;
   padding-top: 2rem;
 }
@@ -88,6 +88,12 @@ a {
   color: #556EED;
 }
 
+.btn_empty {
+  background-color: white;
+  color: #505050;
+  border: 2px solid #505050;
+}
+
 .jumbo {
   height: 100%;
   display: flex;
@@ -111,7 +117,7 @@ a {
 
 .meet {
   background-color: #F7F8FA;
-  color: #202020;
+  color: #505050;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -178,11 +184,15 @@ a {
 
 .meet .card {
   background-color: white;
+  color: #505050;
+}
+.meet .card h3 {
+  color: black;
 }
 
 .services .card {
   background-color: #071B50;
-  height: 450px;
+  min-height: 450px;
   position: relative;
 }
 .services .card a {
@@ -197,14 +207,44 @@ a {
 }
 
 .work .cards {
+  width: 100%;
   flex-wrap: wrap;
   padding-bottom: 3rem;
 }
 .work .cards .card {
+  margin: 0;
   padding: 1rem;
+  width: calc(100% / 3);
 }
 .work .cards .card img {
-  height: 300px;
+  width: 100%;
+}
+
+.plan .cards {
+  width: 100%;
+}
+.plan .cards .card {
+  background-color: white;
+  color: black;
+  padding: 1rem 1rem 3rem 1rem;
+  width: calc(100% / 4 );
+}
+.plan .cards .card h3 {
+  font-weight: 900;
+}
+.plan .cards .card ul {
+  list-style: none;
+}
+.plan .cards .card ul li {
+  padding: 1.5rem 0;
+}
+.plan .cards .card ul li:last-child {
+  padding-bottom: 4rem;
+}
+.plan .cards .card a:hover {
+  background-color: #FFA837;
+  color: white;
+  border: 1px solid white;
 }
 
 .work {
@@ -223,4 +263,80 @@ a {
   font-size: 1.2rem;
   margin-top: 2rem;
   line-height: 2rem;
+  color: #505050;
+}
+
+.plan {
+  color: white;
+  min-height: 100vh;
+  background-image: url(/dist/img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.plan .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan .container .title {
+  width: 45%;
+}
+.plan .container .title p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+.plan .container .price {
+  display: flex;
+  justify-content: center;
+}
+.plan .container .price .dollar {
+  display: flex;
+  justify-content: center;
+}
+.plan .container .price .dollar i {
+  font-size: 1.5rem;
+  color: #505050;
+}
+.plan .container .price .dollar h3 {
+  padding: 0;
+  font-size: 3rem;
+  color: #556EED;
+}
+.plan .container .price .cents {
+  text-align: left;
+  padding-top: 1rem;
+}
+.plan .container .price .cents span {
+  color: #556EED;
+  font-weight: bold;
+}
+.plan .container .price .cents p {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.news {
+  text-align: center;
+}
+.news .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.news .container .title {
+  width: 45%;
+}
+.news .container .title p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+  color: #505050;
+}
+.news .container .news_cards {
+  width: 100%;
+}
+.news .container .news_cards .news_card {
+  width: calc(100% / 3);
 }

@@ -26,14 +26,18 @@
 
 .meet{
     .card{
-        background-color: white;    
+        background-color: white;   
+        color: $grey_txt; 
+        h3{
+            color: black;
+        }
     }
 }
 
 .services{ 
     .card{
         background-color: $light_blue_bg;
-        height: 450px;
+        min-height: 450px;
         position: relative;
         a{
             position: absolute;
@@ -50,12 +54,44 @@
 
 .work{
     .cards{
+        width: 100%;
         flex-wrap: wrap;
         padding-bottom: 3rem;
         .card{
+            margin: 0;
             padding: 1rem;
+            width: calc(100% / 3);
             img{
-                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.plan{
+    .cards{
+        width: 100%;
+        .card{
+            background-color: white;
+            color: black;
+            padding: 1rem 1rem 3rem 1rem;
+            width: calc(100% / 4 );
+            h3{
+                font-weight: 900;
+            }
+            ul{
+                list-style: none;
+                li{
+                    padding: 1.5rem 0;
+                }
+                li:last-child{
+                    padding-bottom: 4rem;
+                }
+            }
+            a:hover{
+                background-color: $brand_primary;
+                color: white;
+                border: 1px solid white;
             }
         }
     }

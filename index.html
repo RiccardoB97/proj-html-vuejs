@@ -90,10 +90,48 @@
                         <a href="#" class="btn btn_y">VIEW OUR WORK</a>
                     </div>
                 </section>
-                <section class="plan" id="plan">
-                    
+                <section class="plan" id="plans">
+                    <div class="container">
+                        <div class="title">
+                            <h2>Our Plans</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quod iusto exercitationem maxime hic autem?</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card" v-for='card in plan_cards'>
+                                <h3>{{card.name}}</h3>
+                                <div class="price">
+                                    <div class="dollar">
+                                        <i class="fas fa-dollar-sign"></i>
+                                        <h3>{{card.price}}</h3>
+                                    </div>
+                                    <div class="cents">
+                                        <span>99</span>
+                                        <p>monthly</p>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>{{card.projects}} Projects</li>
+                                    <li>{{card.storage}} Storage</li>
+                                    <li>{{card.users}} Users</li>
+                                </ul>
+                                <a href="#" class="btn btn_empty">START TODAY</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                
+                <section class="news" id="news">
+                    <div class="container">
+                        <div class="title">
+                            <h2>Our News</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat quasi eius esse excepturi iure.</p>
+                        </div>
+                        <div class="news_cards">
+                            <div class="news_card" v-for='card in news_card'>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 
         </main>
         <!-- /Site Main -->

@@ -1,0 +1,50 @@
+.plan{
+    color: white;
+    min-height: 100vh;
+    background-image: url(/dist/img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title{
+            width: 45%;
+            p{
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                line-height: 2rem;
+            }
+        }
+        .price{
+            display: flex;
+            justify-content: center;
+            .dollar{
+                display: flex;
+                justify-content: center;
+                i{
+                    font-size: 1.5rem;
+                    color: $grey_txt;
+                }
+                h3{
+                    padding: 0;
+                    font-size: 3rem;
+                    color: $brand_secondary;
+                }
+            }
+            .cents{
+                text-align: left;
+                padding-top: 1rem;
+                span{
+                    color: $brand_secondary;
+                    font-weight: bold;
+                }
+                p{
+                    font-style: italic;
+                    font-size: 0.8rem; 
+                }
+            }
+        }
+    }
+}
