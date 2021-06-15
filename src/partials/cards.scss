@@ -5,7 +5,6 @@
     margin-top: 3rem;
     font-size: 1.2rem;
     .card{
-        background-color: white;
         padding: 2rem;
         margin: 0 1rem;
         h3{
@@ -16,6 +15,32 @@
             color: $brand_primary;
             font-size: 2rem;
             padding-bottom: 1rem;
+            padding-top: 1rem;
+        }
+        p{
+            line-height: 2rem;
+        }
+    }
+}
+
+
+.meet{
+    .card{
+        background-color: white;    
+    }
+}
+
+.services{ 
+    .card{
+        background-color: $light_blue_bg;
+        height: 450px;
+        position: relative;
+        a{
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            font-size: 0.8rem;
+            transform: translate(-50%, 0);
         }
     }
 }

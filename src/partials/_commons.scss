@@ -20,4 +20,9 @@ a{
 
 #site_main{
     background-color: $light_bg;
+    h2{
+        font-size: 2rem;
+        padding-top: 100px;
+        font-weight: bold;
+    }
 }

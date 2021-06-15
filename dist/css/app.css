@@ -21,6 +21,11 @@ a {
 #site_main {
   background-color: #F7F8FA;
 }
+#site_main h2 {
+  font-size: 2rem;
+  padding-top: 100px;
+  font-weight: bold;
+}
 
 #site_header {
   background-image: url(/dist/img/1-hero-image.png);
@@ -115,14 +120,35 @@ a {
 .meet .title {
   width: 45%;
 }
-.meet .title h2 {
-  font-size: 2rem;
-  padding-top: 100px;
-  font-weight: bold;
-}
 .meet .title p {
   font-size: 1.2rem;
   margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.services {
+  background-color: #051642;
+  background-image: url("/dist/img/pattern_background.png");
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.services .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .container .title {
+  width: 40%;
+}
+.services .container .title p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+.services a {
+  color: #FFA837;
 }
 
 .cards {
@@ -133,7 +159,6 @@ a {
   font-size: 1.2rem;
 }
 .cards .card {
-  background-color: white;
   padding: 2rem;
   margin: 0 1rem;
 }
@@ -145,4 +170,25 @@ a {
   color: #FFA837;
   font-size: 2rem;
   padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.cards .card p {
+  line-height: 2rem;
+}
+
+.meet .card {
+  background-color: white;
+}
+
+.services .card {
+  background-color: #071B50;
+  height: 450px;
+  position: relative;
+}
+.services .card a {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  font-size: 0.8rem;
+  transform: translate(-50%, 0);
 }
