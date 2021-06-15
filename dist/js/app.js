@@ -65,19 +65,19 @@ var app = new Vue({
       title: 'SEO Analysis',
       paragraph: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nulla voluptates asperiores qui sunt ducimus inventore vero accusantium tempora cum.'
     }],
-    work_img_path: './dist/img/case-study-gallery-',
+    img_path: './dist/img/',
     work_cards: [{
-      image_id: '3-1.jpg'
+      image_id: 'case-study-gallery-3-1.jpg'
     }, {
-      image_id: '2-1.jpg'
+      image_id: 'case-study-gallery-2-1.jpg'
     }, {
-      image_id: '1-1.jpg'
+      image_id: 'case-study-gallery-1-1.jpg'
     }, {
-      image_id: '4-1.jpg'
+      image_id: 'case-study-gallery-4-1.jpg'
     }, {
-      image_id: '5-1.jpg'
+      image_id: 'case-study-gallery-5-1.jpg'
     }, {
-      image_id: '6-1.jpg'
+      image_id: 'case-study-gallery-6-1.jpg'
     }],
     plan_cards: [{
       name: 'Standard',
@@ -105,20 +105,20 @@ var app = new Vue({
       users: 'Unlimited'
     }],
     news_card: [{
-      image: '',
-      title: '',
+      image: 'related-service-2-700x441.jpg',
+      title: 'Why You Need A SEO Agency Now',
       date: 'November 1st, 2017',
-      paragraph: ''
+      paragraph: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit perspiciatis quae esse laboriosam temporibus fugiat magnam tenetur facere harum? Praesentium.'
     }, {
-      image: '',
-      title: '',
+      image: 'related-service-4-700x441.jpg',
+      title: 'SEO Tips For Your Startup',
       date: 'November 1st, 2017',
-      paragraph: ''
+      paragraph: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consectetur adipisci sequi nobis eum consequatur quod aliquid eaque sed pariatur!'
     }, {
-      image: '',
-      title: '',
+      image: 'blog-post-6-700x441.jpg',
+      title: 'Image Optimized For Your Site',
       date: 'November 1st, 2017',
-      paragraph: ''
+      paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit at omnis totam unde. Illum animi omnis id quis quos?'
     }]
   },
   methods: {}

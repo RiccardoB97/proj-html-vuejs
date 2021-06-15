@@ -96,3 +96,29 @@
         }
     }
 }
+
+.news{
+    .news_cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        color: $grey_txt;
+        .news_card{
+            width: calc(100% / 3);
+            padding: 1rem 1rem 3rem 1rem;
+            display: flex;
+            flex-direction: column;
+            h3{
+                color: $brand_primary;
+                margin-top: 1rem;
+            }
+            h5{
+                margin: 1rem 0 2rem 0;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

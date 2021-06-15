@@ -84,7 +84,7 @@
                         </div>
                         <div class="cards">
                             <div class="card" v-for='card in work_cards'>
-                                <img :src="work_img_path + card.image_id" alt="">
+                                <img :src="img_path + card.image_id" alt="">
                             </div>
                         </div>
                         <a href="#" class="btn btn_y">VIEW OUR WORK</a>
@@ -127,9 +127,13 @@
                         </div>
                         <div class="news_cards">
                             <div class="news_card" v-for='card in news_card'>
-                                
+                                <img :src="img_path + card.image" alt="">
+                                <h3>{{card.title}}</h3>
+                                <h5>{{card.date}}</h5>
+                                <p>{{card.paragraph}}</p>
                             </div>
                         </div>
+                        <a href="#" class="btn btn_y">GO TO NEWS</a>
                     </div>
                 </section>
                 
