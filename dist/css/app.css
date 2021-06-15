@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -18,4 +18,42 @@ body {
   background-image: url(/dist/img/1-hero-image.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  padding-top: 2rem;
+}
+#site_header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#site_header nav .nav_links ul {
+  list-style: none;
+}
+#site_header nav .nav_links ul li {
+  display: inline-block;
+}
+#site_header nav .nav_links ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+#site_header nav .nav_links ul li a:hover {
+  color: #FFA837;
+}
+#site_header nav .nav_links ul li a span {
+  color: #FFA837;
+  font-size: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #FFA837;
+  border-radius: 0.3rem;
+}
+
+.btn_y {
+  background-color: #FFA837;
+  border-radius: 2rem;
+}
+.btn_y:hover {
+  background-color: white;
+  border: 1px solid #FFA837;
 }

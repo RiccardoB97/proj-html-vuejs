@@ -2,4 +2,35 @@
     background-image: url(/dist/img/1-hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    padding-top: 2rem;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav_links{
+            ul{
+                list-style: none;
+                li{
+                    display: inline-block;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        padding: 0.5rem 2rem;
+                        font-weight: bold;
+                        &:hover{
+                            color: $brand_primary
+                        }
+                        span{
+                            color:$brand_primary;
+                            font-size: 0.5rem;
+                            padding: 0.3rem 0.5rem;
+                            border: 1px solid $brand_primary;
+                            border-radius:0.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

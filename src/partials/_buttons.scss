@@ -1,0 +1,9 @@
+.btn_y{
+    background-color: $brand_primary;
+    border-radius: 2rem;
+    &:hover{
+        background-color:white;
+        border: 1px solid $brand_primary;
+    }
+}
+

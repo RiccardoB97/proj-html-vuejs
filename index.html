@@ -15,8 +15,16 @@
             <div class="container">
                 <!-- Navbar -->
                 <nav>
-
-
+                    <div class='logo_seo'>
+                        <img src="/src/img/logo_seo_w_1x.png" alt="">
+                    </div>
+                    <div class="nav_links">
+                        <ul>
+                            <li v-for="link in links">
+                                <a href="#" :class='link.class'>{{link.name}} <span v-if="link.class === 'apply'">APPLY</span></a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </nav>
                 <!-- Navbar -->
