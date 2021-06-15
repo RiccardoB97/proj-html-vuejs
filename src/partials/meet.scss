@@ -1,0 +1,21 @@
+
+.meet{
+    background-color: $light_bg;
+    color: $dark_txt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        width: 45%;
+        h2{
+            font-size: 2rem;
+            padding-top: 100px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+    }
+}

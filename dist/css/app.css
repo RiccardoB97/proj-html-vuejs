@@ -18,11 +18,15 @@ a {
   text-decoration: none;
 }
 
+#site_main {
+  background-color: #F7F8FA;
+}
+
 #site_header {
   background-image: url(/dist/img/1-hero-image.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 1000px;
   background-position: 60% 90%;
   padding-top: 2rem;
 }
@@ -98,4 +102,47 @@ a {
 }
 .jumbo .buttons a:last-child {
   margin-left: 1rem;
+}
+
+.meet {
+  background-color: #F7F8FA;
+  color: #202020;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.meet .title {
+  width: 45%;
+}
+.meet .title h2 {
+  font-size: 2rem;
+  padding-top: 100px;
+  font-weight: bold;
+}
+.meet .title p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+.cards .card {
+  background-color: white;
+  padding: 2rem;
+  margin: 0 1rem;
+}
+.cards .card h3 {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.cards .card i {
+  color: #FFA837;
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
