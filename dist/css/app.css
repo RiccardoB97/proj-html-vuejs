@@ -129,7 +129,7 @@ a {
 .services {
   background-color: #051642;
   background-image: url("/dist/img/pattern_background.png");
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   text-align: center;
   padding-bottom: 6rem;
@@ -191,4 +191,36 @@ a {
   left: 50%;
   font-size: 0.8rem;
   transform: translate(-50%, 0);
+}
+.services .card a:hover {
+  color: white;
+}
+
+.work .cards {
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+.work .cards .card {
+  padding: 1rem;
+}
+.work .cards .card img {
+  height: 300px;
+}
+
+.work {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.work .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work .container .title {
+  width: 45%;
+}
+.work .container .title p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
 }

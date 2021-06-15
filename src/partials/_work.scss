@@ -1,8 +1,4 @@
-.services{
-    background-color: $dark_bg;
-    background-image: url('/dist/img/pattern_background.png');
-    height: 100vh;
-    color: white;
+.work{
     text-align: center;
     padding-bottom: 6rem;
     .container{
@@ -10,15 +6,12 @@
         flex-direction: column;
         align-items: center;
         .title{
-            width: 40%;
+            width: 45%;
             p{
                 font-size: 1.2rem;
                 margin-top: 2rem;
-                line-height: 2rem;               
+                line-height: 2rem;
             }
         }
-    }
-    a{
-        color: $brand_primary;
     }
 }

@@ -22,6 +22,16 @@ const app = new Vue({
             {icon:'fas fa-cog' , title:'Brand Strategy' , paragraph:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem nam eius quo rem numquam blanditiis porro magni recusandae quibusdam!'},
             {icon:'fas fa-chart-bar' , title:'Local SEO' , paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga neque quibusdam molestiae impedit numquam eum quisquam consectetur ea quam.'},
             {icon: 'fas fa-building', title:'SEO Analysis' , paragraph:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nulla voluptates asperiores qui sunt ducimus inventore vero accusantium tempora cum.'},
+        ],
+        work_img_path: './dist/img/case-study-gallery-',
+        work_cards: [
+            {image_id: '3-1.jpg'},
+            {image_id: '2-1.jpg'},
+            {image_id: '1-1.jpg'},
+            {image_id: '4-1.jpg'},
+            {image_id: '5-1.jpg'},
+            {image_id: '6-1.jpg'},
+
         ]
     },
 

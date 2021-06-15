@@ -64,6 +64,20 @@ var app = new Vue({
       icon: 'fas fa-building',
       title: 'SEO Analysis',
       paragraph: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nulla voluptates asperiores qui sunt ducimus inventore vero accusantium tempora cum.'
+    }],
+    work_img_path: './dist/img/case-study-gallery-',
+    work_cards: [{
+      image_id: '3-1.jpg'
+    }, {
+      image_id: '2-1.jpg'
+    }, {
+      image_id: '1-1.jpg'
+    }, {
+      image_id: '4-1.jpg'
+    }, {
+      image_id: '5-1.jpg'
+    }, {
+      image_id: '6-1.jpg'
     }]
   },
   methods: {}

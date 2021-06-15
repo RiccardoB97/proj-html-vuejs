@@ -41,6 +41,22 @@
             left: 50%;
             font-size: 0.8rem;
             transform: translate(-50%, 0);
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.work{
+    .cards{
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        .card{
+            padding: 1rem;
+            img{
+                height: 300px;
+            }
         }
     }
 }

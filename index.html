@@ -18,7 +18,7 @@
                 <!-- Navbar -->
                 <nav>
                     <div class='logo_seo'>
-                        <img src="/src/img/logo_seo_w_1x.png" alt="">
+                        <img src="./dist/img/logo_seo_w_1x.png" alt="">
                     </div>
                     <div class="nav_links">
                         <ul>
@@ -57,7 +57,7 @@
                             <p>{{card.paragraph}}</p>
                         </div>
                     </div>
-                    <img src="./src/img/agency-seo-desk-front-1200x570.jpg" alt="">
+                    <img src="./dist/img/agency-seo-desk-front-1200x570.jpg" alt="">
                 </section>
             </div>
                 <section class="services" id="services">
@@ -76,8 +76,23 @@
                         </div>
                     </div>
                 </section>
-                
-                
+                <section class="work" id="work">
+                    <div class="container">
+                        <div class="title">
+                            <h2>Our Work</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, doloremque explicabo! Quibusdam maiores laborum modi?</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card" v-for='card in work_cards'>
+                                <img :src="work_img_path + card.image_id" alt="">
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn_y">VIEW OUR WORK</a>
+                    </div>
+                </section>
+                <section class="plan" id="plan">
+                    
+                </section>
                 
                 
         </main>
