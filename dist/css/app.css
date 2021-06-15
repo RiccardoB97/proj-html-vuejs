@@ -14,11 +14,16 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 #site_header {
   background-image: url(/dist/img/1-hero-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-position: 60% 90%;
   padding-top: 2rem;
 }
 #site_header nav {
@@ -49,11 +54,48 @@ body {
   border-radius: 0.3rem;
 }
 
+.btn {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+
 .btn_y {
   background-color: #FFA837;
+  color: white;
   border-radius: 2rem;
 }
 .btn_y:hover {
   background-color: white;
-  border: 1px solid #FFA837;
+  color: #FFA837;
+}
+
+.btn_b {
+  background-color: #556EED;
+  color: white;
+  border-radius: 2rem;
+}
+.btn_b:hover {
+  background-color: white;
+  color: #556EED;
+}
+
+.jumbo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-top: 200px;
+  color: white;
+}
+.jumbo h1 {
+  font-size: 4rem;
+}
+.jumbo p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 3rem 3rem 3rem 0;
+}
+.jumbo .buttons a:last-child {
+  margin-left: 1rem;
 }
