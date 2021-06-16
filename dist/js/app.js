@@ -160,6 +160,13 @@ var app = new Vue({
       } else {
         app.counter += 1;
       }
+    },
+    previousImage: function previousImage() {
+      if (app.counter === 0) {
+        app.counter = 1;
+      } else {
+        app.counter -= 1;
+      }
     }
   }
 });
