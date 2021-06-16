@@ -1,0 +1,46 @@
+.clients{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 6rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title{
+            width: 40%;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .client{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                border-radius: 50%;
+            }
+            p{
+                font-style: italic;
+                margin: 2rem 0;
+                width: 60%;
+            }
+            .circles{
+                margin-top: 2rem;
+                i{
+                    padding: 0 0.2rem;
+                }
+            }
+        }
+        .partners{
+            display: flex;
+            margin: 3rem 0;
+            border-top: 1px solid $light_bg;
+            padding-top:2rem;
+            img{
+                padding: 0 4rem;
+                height: 120px;
+            }
+        }
+    }
+    
+    
+}

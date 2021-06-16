@@ -136,7 +136,24 @@
                         <a href="#" class="btn btn_y">GO TO NEWS</a>
                     </div>
                 </section>
-                
+                <section class='clients'>
+                    <div class="container">
+                        <div class="title">
+                            <h2>What Our Clients Say</h2>
+                        </div>
+                        <div class="client">
+                            <img src="./dist/img/testimonials-2.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur. Animi exercitationem ex quia deserunt.</p>
+                            <span><strong>Luis Desalvo</strong>, CREO TECH </span>
+                            <span class='circles'><i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>
+                        </div>
+                        <div class="partners">
+                            <div class="logo_partner" v-for='partner in partners'>
+                                <img :src="img_path + partner.image" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
         </main>
         <!-- /Site Main -->
 

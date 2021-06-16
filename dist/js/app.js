@@ -10,6 +10,8 @@
 var app = new Vue({
   el: '#app',
   data: {
+    // Image path
+    img_path: './dist/img/',
     // Nav links
     links: [{
       name: 'Home',
@@ -35,6 +37,7 @@ var app = new Vue({
       link: '#contact',
       "class": 'btn_y'
     }],
+    // Cards in team section
     team_cards: [{
       icon: 'fas fa-road',
       title: 'Establish Goals',
@@ -48,6 +51,7 @@ var app = new Vue({
       title: 'Get Results',
       paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit, nesciunt repellat officiis praesentium esse voluptatum ex optio nostrum earum.'
     }],
+    // Cards in services section
     services_cards: [{
       icon: 'fab fa-google',
       title: 'Google SEO',
@@ -65,7 +69,7 @@ var app = new Vue({
       title: 'SEO Analysis',
       paragraph: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nulla voluptates asperiores qui sunt ducimus inventore vero accusantium tempora cum.'
     }],
-    img_path: './dist/img/',
+    // Cards in Work section
     work_cards: [{
       image_id: 'case-study-gallery-3-1.jpg'
     }, {
@@ -79,6 +83,7 @@ var app = new Vue({
     }, {
       image_id: 'case-study-gallery-6-1.jpg'
     }],
+    // Cards in plan section
     plan_cards: [{
       name: 'Standard',
       price: '19',
@@ -104,6 +109,7 @@ var app = new Vue({
       storage: 'Unlimited',
       users: 'Unlimited'
     }],
+    // Cards in news section
     news_card: [{
       image: 'related-service-2-700x441.jpg',
       title: 'Why You Need A SEO Agency Now',
@@ -119,6 +125,20 @@ var app = new Vue({
       title: 'Image Optimized For Your Site',
       date: 'November 1st, 2017',
       paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit at omnis totam unde. Illum animi omnis id quis quos?'
+    }],
+    // Logos of partners in client section
+    partners: [{
+      image: 'clients_partner_5-200x202.png',
+      name: 'Avada'
+    }, {
+      image: 'clients_partner_6-200x202.png',
+      name: 'Avada University'
+    }, {
+      image: 'clients_partner_1-200x202.png',
+      name: 'Avada Agency'
+    }, {
+      image: 'clients_partner_2-200x202.png',
+      name: 'Avada Law'
     }]
   },
   methods: {}
