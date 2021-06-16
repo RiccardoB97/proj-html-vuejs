@@ -149,12 +149,12 @@
                         <div class="client">
                             <div class="image">
                                 <i class="fas fa-chevron-left"></i>
-                                <img src="./dist/img/testimonials-2.jpg" alt="">
-                                <i class="fas fa-chevron-right"></i>
+                                <img :src="img_path + testimonials[counter].image" alt="">
+                                <i class="fas fa-chevron-right" @click='nextImage'></i>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur. Animi exercitationem ex quia deserunt.</p>
-                            <span><strong>Luis Desalvo</strong>, CREO TECH </span>
-                            <span class='circles'><i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>
+                            <p>{{testimonials[counter].review}}</p>
+                            <span><strong>{{testimonials[counter].name}}</strong>, {{testimonials[counter].job.toUpperCase()}} </span>
+                            <span class='circles'><i class="fas fa-circle"></i></span>
                         </div>
                         <div class="partners">
                             <div class="logo_partner" v-for='partner in partners'>

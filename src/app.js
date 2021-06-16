@@ -56,11 +56,23 @@ const app = new Vue({
             {image:'clients_partner_6-200x202.png', name: 'Avada University'},
             {image:'clients_partner_1-200x202.png', name: 'Avada Agency'}, 
             {image:'clients_partner_2-200x202.png', name: 'Avada Law'}, 
+        ],
+        counter: 0,
+        testimonials: [
+            {name: 'Luis Desalvo', job: 'creo tech', review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur. Animi exercitationem ex quia deserunt.', image: 'testimonials-0.jpg' },
+            {name: 'Clara Roberts', job: 'ceo farma', review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sit. Lorem, ipsum dolor.', image: 'testimonials-1.jpg'}
         ]
+
     },
-
     methods: {
+        nextImage(){
+            if(app.counter === 1){
+                app.counter = 0;
+            } else{
+                app.counter += 1;
+            }
 
+        }
     }
 
 })
