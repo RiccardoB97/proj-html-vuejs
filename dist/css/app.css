@@ -384,8 +384,19 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.clients .container .client img {
+.clients .container .client .image {
+  display: flex;
+  align-items: center;
+}
+.clients .container .client .image i {
+  font-size: 1.5rem;
+}
+.clients .container .client .image i:hover {
+  cursor: pointer;
+}
+.clients .container .client .image img {
   border-radius: 50%;
+  padding: 0 1rem;
 }
 .clients .container .client p {
   font-style: italic;

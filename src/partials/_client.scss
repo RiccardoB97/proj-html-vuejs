@@ -15,8 +15,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            img{
-                border-radius: 50%;
+            .image{
+                display: flex;
+                align-items: center;
+                i{
+                    font-size: 1.5rem;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+                img{
+                    border-radius: 50%;
+                    padding: 0 1rem;
+                }
             }
             p{
                 font-style: italic;
