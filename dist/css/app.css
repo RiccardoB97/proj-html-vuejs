@@ -414,6 +414,7 @@ a {
   min-height: 60vh;
   background-image: url("/dist/img/CTA-seo-1.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
   position: relative;
