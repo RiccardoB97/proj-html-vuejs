@@ -118,15 +118,17 @@ a {
 .meet {
   background-color: #F7F8FA;
   color: #505050;
+}
+.meet .container {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.meet .title {
+.meet .container .title {
   width: 45%;
 }
-.meet .title p {
+.meet .container .title p {
   font-size: 1.2rem;
   margin-top: 2rem;
   line-height: 2rem;
