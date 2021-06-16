@@ -23,7 +23,8 @@
                     <div class="nav_links">
                         <ul>
                             <li v-for="link in links">
-                                <a :href="link.link" :class='link.class'>{{link.name}} <span v-if="link.class === 'apply'">APPLY</span></a>
+                                <a :href="link.link" :class='link.class' v-if="link.link ==='#contact'">{{link.name.toUpperCase()}} </a>
+                                <a :href="link.link" :class='link.class' v-else>{{link.name}} <span v-if="link.class === 'apply'">APPLY</span></a>
                             </li>
                         </ul>
                     </div>

@@ -33,7 +33,7 @@ var app = new Vue({
       name: 'News',
       link: '#news'
     }, {
-      name: 'GET IN TOUCH NOW',
+      name: 'Get In Touch Now',
       link: '#contact',
       "class": 'btn_y'
     }],

@@ -12,7 +12,7 @@ const app = new Vue({
             {name: 'Where We Work', link: '#work'},
             {name: 'Careers',link:'#plans', class: 'apply'},
             {name: 'News', link:'#news'},
-            {name: 'GET IN TOUCH NOW',link:'#contact', class: 'btn_y'},
+            {name: 'Get In Touch Now',link:'#contact', class: 'btn_y'},
         ],
         // Cards in team section
         team_cards: [
