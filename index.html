@@ -154,7 +154,7 @@
                             </div>
                             <p>{{testimonials[counter].review}}</p>
                             <span><strong>{{testimonials[counter].name}}</strong>, {{testimonials[counter].job.toUpperCase()}} </span>
-                            <span class='circles'><i class="fas fa-circle"></i></span>
+                            <span class='circles'><i :class="(index === counter) ? 'fas fa-circle' : 'far fa-circle'" v-for='(person, index) in testimonials'></i></span>
                         </div>
                         <div class="partners">
                             <div class="logo_partner" v-for='partner in partners'>
