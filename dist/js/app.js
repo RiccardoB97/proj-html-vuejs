@@ -59,15 +59,15 @@ var app = new Vue({
     }, {
       icon: 'fas fa-cog',
       title: 'Brand Strategy',
-      paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem nam eius quo rem numquam blanditiis porro magni recusandae quibusdam!'
+      paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem eius magni dolore, molestiae nemo aliquid alias qui! Perferendis, eius?'
     }, {
       icon: 'fas fa-chart-bar',
       title: 'Local SEO',
-      paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga neque quibusdam molestiae impedit numquam eum quisquam consectetur ea quam.'
+      paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem eius magni dolore, molestiae nemo aliquid alias qui! Perferendis, eius?'
     }, {
       icon: 'fas fa-building',
       title: 'SEO Analysis',
-      paragraph: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nulla voluptates asperiores qui sunt ducimus inventore vero accusantium tempora cum.'
+      paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem eius magni dolore, molestiae nemo aliquid alias qui! Perferendis, eius?'
     }],
     // Cards in Work section
     work_cards: [{

@@ -38,15 +38,16 @@
     .card{
         background-color: $light_blue_bg;
         min-height: 450px;
-        position: relative;
-        a{
-            position: absolute;
-            bottom: 2rem;
-            left: 50%;
-            font-size: 0.8rem;
-            transform: translate(-50%, 0);
-            &:hover{
-                color: white;
+        .link{
+            margin-top: 4rem;
+            a{
+                bottom: 2rem;
+                left: 50%;
+                font-size: 0.8rem;
+                transform: translate(-50%, 0);
+                &:hover{
+                    color: white;
+                }
             }
         }
     }

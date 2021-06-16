@@ -195,16 +195,17 @@ a {
 .services .card {
   background-color: #071B50;
   min-height: 450px;
-  position: relative;
 }
-.services .card a {
-  position: absolute;
+.services .card .link {
+  margin-top: 4rem;
+}
+.services .card .link a {
   bottom: 2rem;
   left: 50%;
   font-size: 0.8rem;
   transform: translate(-50%, 0);
 }
-.services .card a:hover {
+.services .card .link a:hover {
   color: white;
 }
 
