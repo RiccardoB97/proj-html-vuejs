@@ -1,9 +1,10 @@
-.cards{
+@mixin cards{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
     font-size: 1.2rem;
+    width: 100%;
     .card{
         padding: 2rem;
         margin: 0 1rem;
@@ -25,6 +26,9 @@
 
 
 .meet{
+    .cards{
+        @include cards
+    }
     .card{
         background-color: white;   
         color: $grey_txt; 
@@ -35,18 +39,21 @@
 }
 
 .services{ 
-    .card{
-        background-color: $light_blue_bg;
-        min-height: 450px;
-        .link{
-            margin-top: 4rem;
-            a{
-                bottom: 2rem;
-                left: 50%;
-                font-size: 0.8rem;
-                transform: translate(-50%, 0);
-                &:hover{
-                    color: white;
+    .cards{
+        @include cards;
+        .card{
+            background-color: $light_blue_bg;
+            min-height: 450px;
+            .link{
+                margin-top: 4rem;
+                a{
+                    bottom: 2rem;
+                    left: 50%;
+                    font-size: 0.8rem;
+                    transform: translate(-50%, 0);
+                    &:hover{
+                        color: white;
+                    }
                 }
             }
         }
@@ -55,7 +62,7 @@
 
 .work{
     .cards{
-        width: 100%;
+        @include cards;
         flex-wrap: wrap;
         padding-bottom: 3rem;
         .card{
@@ -71,7 +78,7 @@
 
 .plan{
     .cards{
-        width: 100%;
+        @include cards;
         .card{
             background-color: white;
             color: black;
@@ -100,8 +107,7 @@
 
 .news{
     .news_cards{
-        width: 100%;
-        display: flex;
+        @include cards;
         flex-wrap: wrap;
         color: $grey_txt;
         .news_card{

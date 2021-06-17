@@ -7,6 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  width: 100%;
 }
 
 .container {
@@ -160,31 +161,31 @@ a {
   color: #FFA837;
 }
 
-.cards {
+.meet .cards {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
   font-size: 1.2rem;
+  width: 100%;
 }
-.cards .card {
+.meet .cards .card {
   padding: 2rem;
   margin: 0 1rem;
 }
-.cards .card h3 {
+.meet .cards .card h3 {
   font-weight: bold;
   padding: 1.5rem;
 }
-.cards .card i {
+.meet .cards .card i {
   color: #FFA837;
   font-size: 2rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
-.cards .card p {
+.meet .cards .card p {
   line-height: 2rem;
 }
-
 .meet .card {
   background-color: white;
   color: #505050;
@@ -193,27 +194,74 @@ a {
   color: black;
 }
 
-.services .card {
+.services .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.services .cards .card {
+  padding: 2rem;
+  margin: 0 1rem;
+}
+.services .cards .card h3 {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.services .cards .card i {
+  color: #FFA837;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.services .cards .card p {
+  line-height: 2rem;
+}
+.services .cards .card {
   background-color: #071B50;
   min-height: 450px;
 }
-.services .card .link {
+.services .cards .card .link {
   margin-top: 4rem;
 }
-.services .card .link a {
+.services .cards .card .link a {
   bottom: 2rem;
   left: 50%;
   font-size: 0.8rem;
   transform: translate(-50%, 0);
 }
-.services .card .link a:hover {
+.services .cards .card .link a:hover {
   color: white;
 }
 
 .work .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
   width: 100%;
   flex-wrap: wrap;
   padding-bottom: 3rem;
+}
+.work .cards .card {
+  padding: 2rem;
+  margin: 0 1rem;
+}
+.work .cards .card h3 {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.work .cards .card i {
+  color: #FFA837;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.work .cards .card p {
+  line-height: 2rem;
 }
 .work .cards .card {
   margin: 0;
@@ -225,7 +273,29 @@ a {
 }
 
 .plan .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
   width: 100%;
+}
+.plan .cards .card {
+  padding: 2rem;
+  margin: 0 1rem;
+}
+.plan .cards .card h3 {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.plan .cards .card i {
+  color: #FFA837;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.plan .cards .card p {
+  line-height: 2rem;
 }
 .plan .cards .card {
   background-color: white;
@@ -252,10 +322,31 @@ a {
 }
 
 .news .news_cards {
-  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  width: 100%;
   flex-wrap: wrap;
   color: #505050;
+}
+.news .news_cards .card {
+  padding: 2rem;
+  margin: 0 1rem;
+}
+.news .news_cards .card h3 {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.news .news_cards .card i {
+  color: #FFA837;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.news .news_cards .card p {
+  line-height: 2rem;
 }
 .news .news_cards .news_card {
   width: calc(100% / 3);
