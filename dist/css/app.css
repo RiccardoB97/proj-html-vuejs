@@ -29,7 +29,7 @@ a {
 }
 
 #site_header {
-  background-image: url(/dist/img/1-hero-image.png);
+  background-image: url("../img/1-hero-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -138,7 +138,7 @@ a {
 
 .services {
   background-color: #051642;
-  background-image: url("/dist/img/pattern_background.png");
+  background-image: url("../img/pattern_background.png");
   min-height: 100vh;
   color: white;
   text-align: center;
@@ -387,7 +387,7 @@ a {
 .plan {
   color: white;
   min-height: 100vh;
-  background-image: url(/dist/img/background1.jpg);
+  background-image: url("../img/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -515,7 +515,7 @@ a {
 .contact {
   text-align: center;
   min-height: 60vh;
-  background-image: url("/dist/img/CTA-seo-1.jpg");
+  background-image: url("../img/CTA-seo-1.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

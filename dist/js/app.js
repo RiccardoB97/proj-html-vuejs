@@ -155,7 +155,7 @@ var app = new Vue({
   },
   methods: {
     nextImage: function nextImage() {
-      if (app.counter === 1) {
+      if (app.counter === app.testimonials.length - 1) {
         app.counter = 0;
       } else {
         app.counter += 1;
@@ -163,7 +163,7 @@ var app = new Vue({
     },
     previousImage: function previousImage() {
       if (app.counter === 0) {
-        app.counter = 1;
+        app.counter = app.testimonials.length - 1;
       } else {
         app.counter -= 1;
       }
