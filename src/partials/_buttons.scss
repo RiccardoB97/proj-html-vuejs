@@ -1,9 +1,10 @@
-.btn{
+@mixin btn{
     border-radius: 2rem;
     padding: 1rem 2rem;
 }
 
 .btn_y{
+    @include btn;
     background-color: $brand_primary;
     color: white;
     border-radius: 2rem;
@@ -14,6 +15,7 @@
 }
 
 .btn_b{
+    @include btn;
     background-color: $brand_secondary;
     color: white;
     border-radius: 2rem;
@@ -25,6 +27,7 @@
 }
 
 .btn_empty{
+    @include btn;
     background-color: white;
     color: $grey_txt;
     border: 2px solid $grey_txt;

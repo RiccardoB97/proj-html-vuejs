@@ -63,12 +63,9 @@ a {
   border-radius: 0.3rem;
 }
 
-.btn {
+.btn_y {
   border-radius: 2rem;
   padding: 1rem 2rem;
-}
-
-.btn_y {
   background-color: #FFA837;
   color: white;
   border-radius: 2rem;
@@ -79,6 +76,8 @@ a {
 }
 
 .btn_b {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
   background-color: #556EED;
   color: white;
   border-radius: 2rem;
@@ -89,6 +88,8 @@ a {
 }
 
 .btn_empty {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
   background-color: white;
   color: #505050;
   border: 2px solid #505050;
